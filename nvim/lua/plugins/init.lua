@@ -1,0 +1,17 @@
+return {
+	{ "christoomey/vim-tmux-navigator" },
+	{ "nvim-lua/plenary.nvim" },
+	{ "olexsmir/gopher.nvim" },
+	{ "shellRaining/hlchunk.nvim" },
+	{ "wintermute-cell/gitignore.nvim" },
+	{ "tpope/vim-surround" },
+	{ "tpope/vim-fugitive" },
+	{ "tribela/vim-transparent" },
+	{ "mfussenegger/nvim-dap" },
+	{ "rcarriga/nvim-dap-ui" },
+	{ "tpope/vim-dadbod" },
+	{ "kristijanhusak/vim-dadbod-ui" },
+	{ "kristijanhusak/vim-dadbod-completion" },
+	{ "tpope/vim-dotenv" },
+	{ "nvim-treesitter/nvim-treesitter-textobjects" },
+}

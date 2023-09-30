@@ -1,20 +1,17 @@
 return {
 	"neovim/nvim-lspconfig",
 	event = { "BufReadPre", "BufNewFile" },
+	opts = {
+		inlay_hints = {
+			enabled = true,
+		},
+	},
 	dependencies = {
 		"jose-elias-alvarez/typescript.nvim",
 		"hrsh7th/cmp-nvim-lsp",
 		{
 			"smjonas/inc-rename.nvim",
 			config = true,
-		},
-		{
-			"SmiteshP/nvim-navbuddy",
-			dependencies = {
-				"SmiteshP/nvim-navic",
-				"MunifTanjim/nui.nvim",
-			},
-			opts = { lsp = { auto_attach = true } },
 		},
 	},
 	config = function()

@@ -1,17 +1,15 @@
 vim.opt.termguicolors = false
 vim.opt.background = "dark" -- colorschemes that can be light or dark will be made dark
-vim.opt.signcolumn = "yes" -- show sign column so that text doesn't shift
--- opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line or insert mode start position
---
--- clipboard
+vim.opt.signcolumn = "yes"  -- show sign column so that text doesn't shift
+vim.opt.mouse = ""
+
 vim.opt.clipboard:append("unnamedplus") -- use system clipboard as default register
---
+
 -- split windows
 vim.opt.splitright = true -- split vertical window to the right
 vim.opt.splitbelow = true -- split horizontal window to the bottom
 --
 -- -- turn off swapfile
--- opt.swapfile = false
 vim.opt.autoread = true
 --
 vim.opt.fillchars = { eob = " " }

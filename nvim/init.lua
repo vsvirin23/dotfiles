@@ -1,2 +1,3 @@
-require("vsv.core")
-require("vsv.lazy")
+require("core")
+require("core.lazy")
+require("plugins")
